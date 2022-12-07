@@ -244,6 +244,26 @@
         }
     }
 
+    .footer{
+        &__container{
+            padding: 4rem 0 3rem;
+        }
+        &__list{
+            column-gap: 3rem;
+            margin: 3rem 0;
+        }
+        &__social{
+            column-gap: 2rem;
+            
+            &-link{
+                font-size: 1.5rem;
+            }
+        }
+        &__copy{
+            margin-top: 5rem;
+        }
+    }
+
 }
 
 @media screen and (min-width: 1048px){

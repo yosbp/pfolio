@@ -48,6 +48,7 @@
       </nav>
     </header>
 
+    <!--==================== HOME ====================-->
     <main class="main">
       <section class="home section" id="home">
         <div class="home__container container grid section__border">
@@ -56,7 +57,10 @@
               <a href="https://linkedin.com/in/yosbp" target="_blank" class="home__social-icon"><i class="ri-linkedin-fill"></i></a>
               
               <a href="https://github.com/yosbp" target="_blank" class="home__social-icon"><i class="ri-github-fill"></i></a>
+
+              <a href="#CV" target="_blank" class="home__social-icon"><i class="ri-profile-line"></i></a>
             </div>
+            
 
             <div class="home__img">
               <svg class="home__blob" viewBox="0 0 200 187">
@@ -75,12 +79,9 @@
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
                   />
-
                   <!--==================== 
-                                    Insert your image in the Img folder and Change your image |
-                                    Center your image with X: horizontal, Y: vertical 
-                                ====================-->
                   <image class="home__blob-img" x="12" y="18" href="./img/perfil.png"/>
+                                ====================-->
                 </g>
               </svg>
             </div>
@@ -215,7 +216,7 @@
 
     </main>
 
-     <!--==================== PROJECTS ====================-->
+     <!--==================== PROYECTOS ====================-->
     <section class="projects section" id="projects">
       <h2 class="section__title">Proyectos</h2>
       <span class="section__subtitle">Trabajos más recientes</span>
@@ -223,14 +224,14 @@
       <div class="container section__border">
           <div class="projects__container swiper">
               <div class="swiper-wrapper">
-                  <!--==================== PROJECT 1 ====================-->
+                  <!--==================== PROYECTO 1 ====================-->
                   <div class="projects__content swiper-slide">
                       <img src="./img/proyecto1.JPG" class="projects__img">
 
                       <div>
                           <span class="projects__subtitle">Web</span>
                           <h1 class="projects__title">Página Inmobiliaria</h1>
-                          <a href="#" class="projects__button">
+                          <a href="/inmobiliaria" class="projects__button">
                               Web <i class="ri-arrow-right-line"></i>
                           </a>
                           <a href="#" class="projects__button">
@@ -242,7 +243,7 @@
       </div>
     </section>
 
-     <!--==================== CONTACT ====================-->
+     <!--==================== CONTACTO ====================-->
     <section class="contact section" id="contact">
       <h2 class="section__title">Contactame</h2>
       <span class="section__subtitle">Get in touch</span>
@@ -262,7 +263,6 @@
                   <div class="contact__data">
                       <span class="contact__data-title">Whatsapp</span>
                       <span class="contact__data-info">+58 42417266</span>
-                      <!-- Insert a real number plus country code -->
                       <a href="https://api.whatsapp.com/send?phone=584241417266&text=Hola!, necesito más información" target="_blank" class="contact__button">
                           Write me <i class="ri-arrow-right-line"></i>
                       </a>
@@ -299,7 +299,36 @@
           </div>
       </div>
     </section>
-</main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+          <h1 class="footer__title">Yosmar Barco</h1>
+          <p>Fullstack Dev.</p>
+
+          <ul class="footer__list">
+              <li>
+                  <a href="#home" class="footer__link">Home</a>
+              </li>
+              <li>
+                  <a href="#skills" class="footer__link">Habilidades</a>
+              </li>
+              <li>
+                  <a href="#projects" class="footer__link">Proyectos</a>
+              </li>
+          </ul>
+
+          <ul class="footer__social">
+              <a href="https://linkedin.com/in/yosbp" target="_blank" class="footer__social-link">
+                  <i class="ri-linkedin-box-line"></i>
+              </a>
+
+              <a href="https://github.com/yosbp" target="_blank" class="footer__social-link">
+                  <i class="ri-github-line"></i>
+              </a>
+          </ul>
+      </div>
+  </footer>
 
     <script src="./js/main.js"></script>
     <script src="./js/scrollreveal.min.js"></script>
