@@ -193,6 +193,9 @@ img {
   font-family: var(--title-font);
   font-weight: var(--font-medium);
 }
+.nav__logo img {
+  height: var(--header-height);
+}
 .nav__toggle {
   display: flex;
   font-size: 1.25rem;
@@ -792,6 +795,9 @@ img {
   }
   .nav__link i, .nav__toggle, .nav__close {
     display: none;
+  }
+  .nav__logo img {
+    height: calc(var(--header-height) + 1rem);
   }
   .nav__menu {
     width: initial;
