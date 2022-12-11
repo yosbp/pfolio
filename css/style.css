@@ -3,7 +3,7 @@
   --header-height: 3.5rem;
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(207, 65%, 65%);
+  --first-color: hsl(220.43,67.46%,59.02%);
   --second-color: hsl(257, 65%, 65%);
   --title-color: hsl(207, 4%, 16%);
   --text-color: hsl(207, 4%, 28%);
@@ -274,7 +274,7 @@ img {
   color: var(--first-color);
 }
 .home__social-icon:hover {
-  color: var(--second-color);
+  color: var(--text-color-light);
 }
 .home__blob {
   width: 200px;
@@ -399,7 +399,7 @@ img {
   justify-content: center;
 }
 .projects__img {
-  width: 250px;
+  width: 400px;
   border-radius: 0.75rem;
   margin-bottom: 1.25rem;
 }
@@ -556,7 +556,7 @@ img {
   top: -0.75rem;
   left: 1.25rem;
   z-index: 10;
-  background-color: var(--body-color);
+  background-color: white;
   color: var(--title-color);
   font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
@@ -830,7 +830,7 @@ img {
     margin-bottom: 6.5rem;
   }
   .projects__img {
-    width: 320px;
+    width: 450px;
     margin-bottom: 2rem;
   }
   .contact__title {
